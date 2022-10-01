@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 15, 54);
+    text-align: center;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+p{
+    color: #d2d2d2;   
+}
+p,input,textarea,label{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+input, textarea, label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #828282;
+}
+input, textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #700cc1;
+}
+input[type=submit]{
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3, ease ;
+}
+input[type=submit]:hover{
+    background-color: rgba(111, 62, 181, 0.373);
+    color: red;
+}
+input, textarea{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+input:focus,
+textarea:focus{
+outline: 1px solid #700cc1;    
+}
+a{
+    color: rgb(99, 235, 205);
+    font-family: 'Clicker Script', cursive;
+    font-size: 25px;
+    font-weight: 400;
+}
+a:hover{
+    color: white;
+}
